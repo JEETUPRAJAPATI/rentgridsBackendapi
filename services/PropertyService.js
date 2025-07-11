@@ -1,4 +1,4 @@
-import { Property } from '../models/Property.js';
+import { Property } from '../models/sequelize/associations.js';
 import { generateSlug } from '../utils/helpers.js';
 import { query } from '../config/database.js';
 import logger from '../utils/logger.js';
